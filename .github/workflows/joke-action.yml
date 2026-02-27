@@ -1,5 +1,5 @@
 name: Joke Action
-runs-name: Dad Joke for the issue ${{ github.event.issue.number }} by ${{ github.event.comment.usr.login }}
+runs-name: Dad Joke for the issue ${{ github.event.issue.number }} by ${{ github.event.comment.user.login }}
 
 on:
   issue_comment:
