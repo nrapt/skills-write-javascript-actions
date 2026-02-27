@@ -5,7 +5,7 @@ on:
   issue_comment:
     types: [created]
 
-persmissions:
+permissions:
   issues: write
   contents: read
 
